@@ -67,7 +67,7 @@ class _Page3State extends State<Page3> {
 
   Future<void> _fetchRoute() async {
     const String apiKey =
-        'AIzaSyACYdhAmCpmX-4GdQlyWI-FQxq-Be4DVmA'; // Replace with your API key
+        ''; // Replace with your API key
     final String url =
         'https://maps.googleapis.com/maps/api/directions/json?origin=${widget.startLocation.latitude},${widget.startLocation.longitude}&destination=${widget.destination.latitude},${widget.destination.longitude}&key=$apiKey';
 
