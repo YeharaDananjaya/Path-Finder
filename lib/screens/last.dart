@@ -112,7 +112,7 @@ class _Page3State extends State<last> {
 
   // Fetch route data and update traffic condition
   Future<void> _fetchRoute() async {
-    final String googleApiKey = 'AIzaSyACYdhAmCpmX-4GdQlyWI-FQxq-Be4DVmA';
+    final String googleApiKey = '';
     final String url =
         'https://maps.googleapis.com/maps/api/directions/json?origin=${widget.startLocation.latitude},${widget.startLocation.longitude}&destination=${widget.destination.latitude},${widget.destination.longitude}&key=$googleApiKey&traffic_model=best_guess&departure_time=now&alternatives=true';
 
