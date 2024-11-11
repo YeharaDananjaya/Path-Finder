@@ -76,7 +76,7 @@ class _Page4State extends State<Page4> {
   }
 
   Future<void> _fetchLocationNames() async {
-    final apiKey = 'AIzaSyACYdhAmCpmX-4GdQlyWI-FQxq-Be4DVmA';
+    final apiKey = '';
     final startLatLng = widget.routePoints[0];
     final endLatLng = widget.routePoints.last;
 
